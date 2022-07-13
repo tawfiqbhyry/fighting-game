@@ -75,7 +75,7 @@ const player = new Fighter({
   },
   attackBoxParams: {
     offset: { x: 80, y: 0 },
-    width: 200,
+    width: 100,
     height: 50,
   },
 });
@@ -102,8 +102,8 @@ const enemy = new Fighter({
     death: { imgSrc: "../assets/kenji/Death.png", framesMax: 7 },
   },
   attackBoxParams: {
-    offset: { x: 400, y: 0 },
-    width: 200,
+    offset: { x: 500, y: 0 },
+    width: 100,
     height: 50,
   },
 });
